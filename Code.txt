@@ -1,0 +1,8 @@
+async function startProgram() {
+	var Heading = 0;
+	while (Heading <= 3){
+		await roll(Heading * 90, 100, 1);
+		await delay(1);
+		Heading += 1;
+	}
+}
