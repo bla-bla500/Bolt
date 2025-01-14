@@ -3,18 +3,23 @@
 //Program: Hello World
 //Hardware: Bolt #SB-EC76
 
-//Start
-//Bolt will say start across LED's
-//Driver: Caleb
-//Navigator: Aiden
 
 
 async function startProgram() {
+	
+	
+	//Start & Say Start
+	//Bolt will say start across LED's & say it outloud
+	//Driver: Caleb
+	//Navigator: Aiden
+	
 	setDisplayText("Start", {r: 255, g: 255, b: 255} , {r: 0, g: 0, b: 0});
+	await speak("Start");
 	
 	// LED's will turn red
 	//Driver: Aiden
 	//Navigator: Caleb
+	
 	
 
 	//Bolt will move forard turn 90 right then go forward again
@@ -22,10 +27,13 @@ async function startProgram() {
 	//Navigator: Aiden
 	
 	
+	
 	//Bolt will Play sound
 	//Driver: Aiden
 	//Navigator: Caleb
 	
 	
+	
 }
+
 
