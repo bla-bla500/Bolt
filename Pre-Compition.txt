@@ -1,0 +1,31 @@
+//Team Members: Caleb Hermann & Aiden Walker
+//Date 1.8.2025
+//Program: Hello World
+//Hardware: Bolt #SB-EC76
+
+//Start
+//Bolt will say start across LED's
+//Driver: Caleb
+//Navigator: Aiden
+
+
+async function startProgram() {
+	setDisplayText("Start", {r: 255, g: 255, b: 255} , {r: 0, g: 0, b: 0});
+	
+	// LED's will turn red
+	//Driver: Aiden
+	//Navigator: Caleb
+	
+
+	//Bolt will move forard turn 90 right then go forward again
+	//Driver: Caleb
+	//Navigator: Aiden
+	
+	
+	//Bolt will Play sound
+	//Driver: Aiden
+	//Navigator: Caleb
+	
+	
+}
+
