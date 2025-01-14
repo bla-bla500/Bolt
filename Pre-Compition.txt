@@ -13,8 +13,8 @@ async function startProgram() {
 	//Driver: Caleb
 	//Navigator: Aiden
 	
-	setDisplayText("Start", {r: 255, g: 255, b: 255} , {r: 0, g: 0, b: 0});
-	await speak("Start");
+	await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
+	await ('Start', true);
 	
 	// LED's will turn red
 	//Driver: Aiden
@@ -35,5 +35,4 @@ async function startProgram() {
 	
 	
 }
-
 
