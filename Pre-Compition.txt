@@ -14,13 +14,13 @@ async function startProgram() {
 	//Navigator: Aiden
 	
 	await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
-	await ('Start', true);
+	await speak('Start', true);
 	
 	// LED's will turn red
 	//Driver: Aiden
 	//Navigator: Caleb
 	
-	
+	setMainLed ({r: 255, g: 0, b: 0 });
 
 	//Bolt will move forard turn 90 right then go forward again
 	//Driver: Caleb
@@ -35,4 +35,3 @@ async function startProgram() {
 	
 	
 }
-
