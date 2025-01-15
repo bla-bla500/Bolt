@@ -26,7 +26,9 @@ async function startProgram() {
 	//Driver: Caleb
 	//Navigator: Aiden
 	
-	
+	await roll(0, 200, 1);
+	await delay(1);
+	await roll(90, 200, 1);
 	
 	//Bolt will Play sound
 	//Driver: Aiden
