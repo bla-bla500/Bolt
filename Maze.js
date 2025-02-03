@@ -1,3 +1,4 @@
+
 //Team Members: Caleb Hermann & Aiden Walker
 //Date 1.24.2025
 //Program: Maze
@@ -5,16 +6,15 @@
 
 
 //Begin Pragram
-  async function startProgram() {
-
+ async function startProgram() {
 
 //Start & Say Start
 //Bolt will say start across LED's & say it outloud
 //Driver: Aiden
 //Navigator: Caleb
 
-	await scrollMatrixText('start',{r:0,g:255,b:0},10,true);
-	await speak('Start', true);
+ await scrollMatrixText('start',{r:0,g:255,b:0},20,true);
+ await speak('Start', true);
 
 
 //Green Checkpoint
@@ -22,48 +22,56 @@
 //Driver: Caleb
 //Navigator: Aiden
 
-	await roll(0, 50, 2.5);
+ await roll(0,74,2);
+ await delay(1.5);
+ await setMainLed({r:0, g:255, b:0})
 
-//Shound #1 Checkpoint
+
+//Sound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
-//Driver: Caleb
-//Navigator: Aiden
+//Driver: Aiden
+//Navigator: Caleb
+
 
 
 //Red Checkpoint
 //LED's turn Red
-//Driver: Aiden
-//Navigator: Caleb
-
-
-//Shound #2 Checkpoint
-//Bolt makes sound of choice - Update Sound
 //Driver: Caleb
 //Navigator: Aiden
+
+
+
+//Sound #2 Checkpoint
+//Bolt makes sound of choice - Update Sound
+//Driver: Aiden
+//Navigator: Caleb
 
 
 //Purple Checkpoint
 //LED's turn Purple
-//Driver: Aiden
-//Navigator: Caleb
-
-
-//Shound #3 Checkpoint
-//Bolt makes sound of choice - Update Sound
 //Driver: Caleb
 //Navigator: Aiden
 
 
-//Blue Checkpoint
-//LED's turn Purple
+
+//Sound #3 Checkpoint
+//Bolt makes sound of choice - Update Sound
 //Driver: Aiden
 //Navigator: Caleb
+
+
+
+//Blue Checkpoint
+//LED's turn Blue
+//Driver: Caleb
+//Navigator: Aiden
+
 
 
 //Finished & Say Finish
 //Bolt will say Finished across LED's & say it out loud
-//Driver: Caleb
-//Navigator: Aiden
+//Driver: Aiden
+//Navigator: Caleb
 
 
 //End Program
