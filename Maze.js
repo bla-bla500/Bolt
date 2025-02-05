@@ -87,7 +87,10 @@
 //Driver: Caleb
 //Navigator: Aiden
 
-
+  await roll (-45, 36, 2);
+  await delay (1.5);
+  await setMainLed({r:0, g:0, b:255})
+  await roll (0, 255, 2);
 
 //Finished & Say Finish
 //Bolt will say Finished across LED's & say it out loud
