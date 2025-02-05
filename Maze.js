@@ -44,6 +44,11 @@
 //Driver: Caleb
 //Navigator: Aiden
 
+  await roll(215, 41, 2);
+  await delay (1.5);
+  await roll(125, 28, 2);
+  await delay (1.5);
+  await setMainLed({r:255, g:0, b:0})
 
 
 //Sound #2 Checkpoint
