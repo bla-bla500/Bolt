@@ -32,6 +32,11 @@
 //Driver: Aiden
 //Navigator: Caleb
 
+  await roll(90, 53, 2);
+  await delay (1.5);
+  await roll (180, 40, 2);
+  await delay (1.5);
+  await Sound.Animal.Monkey.play(true);
 
 
 //Red Checkpoint
