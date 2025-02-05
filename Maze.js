@@ -56,6 +56,9 @@
 //Driver: Aiden
 //Navigator: Caleb
 
+  await roll(35, 41, 2);
+  await delay(1.5);
+  await Sound.Animal.Monkey.play(true);
 
 //Purple Checkpoint
 //LED's turn Purple
