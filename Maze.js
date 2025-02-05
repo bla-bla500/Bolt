@@ -97,6 +97,8 @@
 //Driver: Aiden
 //Navigator: Caleb
 
+  await scrollMatrixText('Fin',{r:255,g:0,b:0},20,true);
+  await speak('Finished', true);
 
 //End Program
 }
