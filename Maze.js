@@ -76,7 +76,11 @@
 //Driver: Aiden
 //Navigator: Caleb
 
-
+  await roll (90, 31, 2);
+  await delay (1.5);
+  await roll(0, 31, 2)
+  await delay(1.5)
+  await Sound.Animal.Monkey.play(true);
 
 //Blue Checkpoint
 //LED's turn Blue
